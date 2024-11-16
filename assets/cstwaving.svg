@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="108" height="108" viewBox="-50 -63 108 108">
+	<g>
+		<circle class="hand hand2" cx="40" cy="18" r="11" fill="#639bff" stroke="#5b6ee1" stroke-width="3"/>
+		<g class="body">
+			<circle cx="0" cy="0" r="33" fill="#639bff" stroke="#5b6ee1" stroke-width="3"/>
+			<g transform="translate(-33, -33)">
+				<path fill="none" stroke="#fff" stroke-linecap="round" stroke-width="7.5" d="M56.2 50.8s1.3-1.9 1-2.7c-.1-1-2.3-1-2.2-1.7.2-.7 2.3-1.6 2.3-1.6"/>
+				<path fill="none" stroke="#fff" stroke-linecap="round" stroke-width="7.5" d="M47 51.8s-19 2.8-21.7-2.7C4 7 43.6 14 43.6 14"/>
+			</g>
+		</g>
+		<circle class="hand hand1" cx="-35" cy="18" r="11" fill="#639bff" stroke="#5b6ee1" stroke-width="3"/>
+	</g>
+	<style>
+		@keyframes wave-body {
+			from {
+				transform: rotate(0deg);
+			}
+			10% {
+				transform: rotate(calc(-1deg * var(--amplitude, 12)));
+			}
+			20% {
+				transform: rotate(calc(-0.5deg * var(--amplitude, 12)));
+			}
+			30% {
+				transform: rotate(calc(-1deg * var(--amplitude, 12)));
+			}
+			50% {
+				transform: rotate(0deg);
+			}
+			to {
+				transform: rotate(0deg);
+			}
+		}
+		
+		.body, .hand {
+			animation: wave-body 3s cubic-bezier(0.45, 0.05, 0.55, 0.95) infinite;
+		}
+		.body {
+			--amplitude: 14;
+		}
+		.hand1 {
+			transform-origin: 5px 5px;
+			--amplitude: 20;
+		}
+		.hand2 {
+			--amplitude: 100;
+			transform-origin: -4px -3px;
+		}
+	</style>
+</svg>
