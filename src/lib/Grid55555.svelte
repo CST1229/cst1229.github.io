@@ -7,13 +7,13 @@
 	export {gridItem, ext};
 </script>
 
-{#snippet gridItem(snippet, args)}
+{#snippet gridItem(snippet, args = [])}
 	<div class="ext">
 		{@render snippet(args)}
 	</div>
 {/snippet}
 {#snippet _extContent([name, desc, url, imgUrl])}
-	<a href={url} target="_blank">
+	<a href={url} download={url.split("/")[url.split("/").length - 1]} target="_blank">
 		<img class="ext-img" src={imgUrl} alt={name} />
 		<div class="ext-name">{name}</div>
 	</a>

@@ -39,6 +39,9 @@
 	<p>
 		Userscripts and other stuff are available on <a href="https://files.cst1229.eu.org/" target="_blank">my files repo</a>.
 	</p>
+	<p>
+		<strong>All extensions not on TurboWarp's gallery must be loaded unsandboxed from text or file or else they will NOT WORK!</strong>
+	</p>
 	<Grid55555>
 		{@render ext(
 			"Text",

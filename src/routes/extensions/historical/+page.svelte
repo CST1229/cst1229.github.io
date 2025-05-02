@@ -33,6 +33,9 @@
 		Most of the extensions here should not be used in actual projects.
 	</p>
 	<p>
+		<strong>All extensions not on TurboWarp's gallery must be loaded unsandboxed from text or file or else they will NOT WORK!</strong>
+	</p>
+	<p>
 		<a href="{base}/extensions">Standard extensions...</a>
 	</p>
 
