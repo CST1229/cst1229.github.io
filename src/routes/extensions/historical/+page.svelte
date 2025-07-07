@@ -53,6 +53,11 @@
 			base + "/extensions/unimportant/snapshotStageNow.js",
 		)}
 		{@render ext(
+			"High Resolution Video Recorder",
+			"The video recorder addon but it's a button in the block palette and it allows for setting the resolution.",
+			base + "/extensions/unimportant/mediarecorderhighres.js",
+		)}
+		{@render ext(
 			"Zip (Totally Normal Version)",
 			"(JOKE EXTENSION)",
 			base + "/extensions/unimportant/ziproll.js",
