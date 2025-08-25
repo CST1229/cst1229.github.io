@@ -67,7 +67,7 @@
 				href="https://reddit.com/u/CST1230"
 				rel="noreferrer"
 				target="_blank">Reddit</a
-			>
+			> (u/CST1229 is an old account)
 		</li>
 		<li>
 			<a
@@ -81,7 +81,14 @@
 				href="https://twitter.com/CST12292"
 				rel="noreferrer"
 				target="_blank">Twitter <!-- TwiX --></a
-			>
+			> (@CST1229 is not me!)
+		</li>
+		<li>
+			<a
+				href="https://archive.org/details/@cst125"
+				rel="noreferrer"
+				target="_blank">Internet Archive</a
+			> (@CST1229 is not me!)
 		</li>
 	</ul>
 	<center
