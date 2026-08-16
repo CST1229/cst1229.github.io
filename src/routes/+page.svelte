@@ -15,10 +15,10 @@
 		<div class="header-text">
 			<h1>CST1229</h1>
 			<div>
-				 you can call me CST. he/they/any (cishet? maybe??). 🇭🇺 Hungarian
+				 you can call me CST. he/they/any (actually maybe not). 🇭🇺 Hungarian
 			</div>
 			<div>
-				<em>these are some links until i put some actual stuff here in the far future</em>
+				<em>im a product buy me for $5 (TODO: add payment system)</em>
 			</div>
 		</div>
 	</header>

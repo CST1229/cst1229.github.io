@@ -3,9 +3,6 @@
 
 	let {children} = $props();
 </script>
-<script module>
-	export {gridItem, ext};
-</script>
 
 {#snippet gridItem(snippet, args = [])}
 	<div class="ext">
@@ -23,6 +20,9 @@
 	{@render gridItem(_extContent, [name, desc, url, imgUrl || noImage])}
 {/snippet}
 
+<script module>
+	export {gridItem, ext};
+</script>
 
 <div class="exts-grid">
 	{@render children()}
