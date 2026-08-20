@@ -146,7 +146,7 @@
 
 		.header-cst-container {
 			flex-shrink: 1;
-			flex-basis: 20rem;
+			flex-basis: 15em;
 			min-width: 5rem;
 			min-height: 8em;
 			position: relative;
@@ -162,7 +162,7 @@
 			transform: scale(2);
 			position: absolute;
 			bottom: 0.5rem;
-			left: 25%;
+			left: 30%;
 		}
 		.header-text {
 			flex-shrink: 1;
