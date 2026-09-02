@@ -20,7 +20,7 @@
 			<div>
 				<em>im a product buy me for $5 (TODO: add payment system)</em>
 				<br>
-				<em>im also garbage slop trash and part of the problem and a loser and probably other things</em>
+				<em>im also garbage slop trash and part of the problem and a loser and a vessel for product and probably other things</em>
 			</div>
 		</div>
 	</header>
