@@ -66,10 +66,10 @@
 		</li>
 		<li>
 			<a
-				href="https://reddit.com/u/CST1230"
+				href="https://reddit.com/u/CST1231"
 				rel="noreferrer"
 				target="_blank">Reddit</a
-			> (u/CST1229 is an old account)
+			> (u/CST1229 and u/CST1230 are old accounts)
 		</li>
 		<li>
 			<a
