@@ -7,6 +7,7 @@
 
 <svelte:head>
 	<title>CST1229</title>
+	<meta property="og:site_name" content="CST1229's Website" />
 </svelte:head>
 
 {#snippet navitem(url, name)}
