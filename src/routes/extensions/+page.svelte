@@ -1,5 +1,6 @@
 <script>
 	import {base} from "$app/paths";
+	import Header from "$lib/Header.svelte";
 	import {default as Grid55555, ext} from "$lib/Grid55555.svelte";
 
 	const imgs = import.meta.glob("$lib/assets/extensions/*", {
@@ -14,11 +15,7 @@
 	<title>Scratch Extensions - CST1229</title>
 </svelte:head>
 
-<div class="header-container">
-	<header>
-		<h1 class="header-centered">Scratch Extensions</h1>
-	</header>
-</div>
+<Header title="Scratch Extensions" />
 
 <main>
 	<p>

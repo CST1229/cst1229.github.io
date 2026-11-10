@@ -23,6 +23,7 @@
 	<ul class="nav">
 		{@render navitem("/", "Home")}
 		<!-- {@render navitem("/wip", "WIP")} -->
+		<!-- {@render navitem("/projects", "Projects")} -->
 		{@render navitem("/extensions", "Scratch Extensions")}
 		<li>
 			<a href="https://github.com/CST1229/cst1229.github.io" target="_blank">Source Code</a>
@@ -56,10 +57,11 @@
 		:root {
 			--font-color: white;
 			--theme: #639bff;
-			--background-color: var(--theme);
-			--back-background-color: var(--theme-secondary);
 			--theme-secondary: #5b6ee1;
 			--theme-tertiary: #3037ba;
+
+			--background-color: var(--theme-secondary);
+			--back-background-color: var(--theme-secondary);
 
 			--links: #80fffc;
 			--links-visited: #d9baff;
@@ -131,19 +133,6 @@
 			max-width: 960px;
 		}
 
-		.header-container {
-			padding-top: 2em;
-			overflow: hidden;
-			border-bottom: solid 2px var(--header-bg);
-			color: var(--header-text);
-		}
-		header {
-			background-color: var(--header-bg);
-			padding: 1em 0;
-			gap: 2em;
-			display: flex;
-		}
-
 		.header-cst-container {
 			flex-shrink: 1;
 			flex-basis: 15em;
@@ -178,12 +167,7 @@
 			margin-bottom: 1rem;
 			font-size: 3em;
 		}
-
-		.header-centered {
-			text-align: center;
-			width: 100%;
-		}
-
+		
 		main {
 			padding: 2em;
 		}

@@ -1,30 +1,33 @@
 <script>
+	import Header from "$lib/Header.svelte";
+
 	import procastinate from "$lib/assets/wip.svg";
 	import wave from "$lib/assets/cstwaving.svg";
 </script>
 
-<div class="header-container">
-	<header>
-		<div class="header-cst-container">
-			<img
-				class="header-cst"
-				src={wave}
-				alt="CST waving at the reader"
-			/>
+<Header>
+	<div class="header-cst-container">
+		<img
+			class="header-cst"
+			src={wave}
+			alt="CST waving at the reader"
+		/>
+	</div>
+	<div class="header-text">
+		<h1>CST1229</h1>
+		<div>
+			you can call me CST. he/they/any (or maybe not). 🇭🇺 Hungarian
 		</div>
-		<div class="header-text">
-			<h1>CST1229</h1>
-			<div>
-				 you can call me CST. he/they/any (actually maybe not). 🇭🇺 Hungarian
-			</div>
-			<div>
-				<em>im a product buy me for $5 (TODO: add payment system)</em>
-				<br>
-				<em>im also garbage slop trash and part of the problem and a loser and a soulless loser and probably other things</em>
-			</div>
+		<div>
+			idk how to describe myself lol. nowadays i mostly just exist on the internet
 		</div>
-	</header>
-</div>
+		<!--<div>
+			<em>im a product buy me for $5 (TODO: add payment system)</em>
+			<br>
+			<em>im also garbage slop trash and part of the problem and a loser and a soulless loser and probably other things</em>
+		</div>-->
+	</div>
+</Header>
 
 <main>
 	<p>I'm usually @CST1229 everywhere, aside from a few platforms.</p>
